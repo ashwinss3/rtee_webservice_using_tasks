@@ -1,0 +1,15 @@
+runtime: python37
+
+service: xlsx-mail
+
+basic_scaling:
+  max_instances: 1
+  idle_timeout: 5m
+
+#handlers:
+# - url: '/xlsx-mail'
+#   script: auto
+
+env_variables:
+  SENDGRID_API_KEY: 'SENDGRID_API_KEY here'
+  EMAIL_SENDER: 'sender mail here'

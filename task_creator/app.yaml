@@ -1,0 +1,6 @@
+runtime: python37
+
+env_variables:
+  PROJECT_ID: 'edification'
+  LOCATION: 'us-central1'
+  QUEUE_NAME: 'xlsx-mail-queue'
